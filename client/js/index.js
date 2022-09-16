@@ -6,7 +6,7 @@ const createApp = () => {
     const clientSection = createClientsSection();
     document.body.append(
         header,
-        clientSection.main
+        clientSection.main,
     );
 }
 
